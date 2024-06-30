@@ -92,7 +92,7 @@ a{
 /* Formatando parallax - Image Pixed */
 
 .parallax{
-    background: url(/image/banner_primeira.png) no-repeat center;
+    background: url(./image/banner_primeira.png) no-repeat center;
     /*background-attachment: fixed;
     background-repeat: no-repeat;*/
     background-position: center;
@@ -103,22 +103,35 @@ a{
     background-size: contain;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
 .fem {
-    background: url(/image/banner_feminino.png) no-repeat center;
+    background: url(./image/banner_feminino.png) no-repeat center;
     margin-top: -1rem;
     width: 100%!important;
     height: 120vh;
     background-size: contain;
 }
 .masc {
-    background: url(/image/banner_masculino.png) no-repeat center;
+    background: url(./image/banner_masculino.png) no-repeat center;
     margin-top: -1rem;
     width: 100%!important;
     height: 120vh;
     background-size: contain;
 }
 .alta {
-    background: url(/image/em_alta.png) no-repeat center;
+    background: url(./image/em_alta.png) no-repeat center;
     margin-top: -1rem;
     width: 100%!important;
     height: 120vh;
@@ -210,14 +223,18 @@ footer .container ul{
     }
 
     .parallax{
-        background: url(/image/compra_mobile.png) no-repeat center;
-        width: 50vw;
+        background: url(./image/compra_mobile.png) no-repeat center;
+        width: 100%;
+        margin-top: 0;
+        padding-top: 0;
+        display: flex;
+        flex-wrap: wrap;
         background-position: center;
         background-size: contain;
     }
     
     .fem{
-        background: url(/image/banner_feminino.png) no-repeat center;
+        background: url(./image/banner_feminino.png) no-repeat center;
         width: 50vw;
         background-position: center;
         background-size: contain;
